@@ -33,7 +33,7 @@ M_2 = 2*diag(ones(N,1),0) - diag(ones(N-1,1),1) - diag(ones(N-1,1),-1);
 M_2(1,2) = -2;
 M = M_1 + M_2/h^2;
 
-X = [0:h:L-h]'; # debut:plus:fin, prime -> transpose
+X = [0:h:L-h]'; # debut:pas:fin, prime -> transpose
 F = (sin(X)).^2;
 # MU=F => U=F/M <- resulution de sys lineaire
 U = M\F;
