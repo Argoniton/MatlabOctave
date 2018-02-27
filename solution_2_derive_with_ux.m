@@ -14,7 +14,7 @@ h=L/N
 -------------------- + u_1 = f_1  (i=1)
         h^2 
 
-u_0 valeur fictive a element 
+u_0 valeur fictive à èlement 
 
 
 par la C-L u'(0) = 0
